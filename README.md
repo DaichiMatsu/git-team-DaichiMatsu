@@ -39,6 +39,8 @@
 
 # Part B
 
+## Task3
+
 (base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % git log --oneline --graph --all
 
     *   ec1c6fa (HEAD -> main) merge 'dev-anna'
@@ -50,6 +52,24 @@
     |/  
     * 2dc6040 (origin/main, origin/HEAD) Initial commit
 
+## Task5
+
+### 変更前ログ
+
+(base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % git log --oneline -n 5
+
+    e92b531 (HEAD -> dev-anna) ccc
+    f959d5b bbb
+    013db50 aaa
+    065c494 feat: login
+    2dc6040 (origin/main, origin/HEAD) Initial commit
+
+### 変更後ログ
+
+(base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % git log --oneline -n 5
+
+    e6b9fd9 (HEAD -> dev-anna) feat: login
+    2dc6040 (origin/main, origin/HEAD) Initial commit
 
 # Part C
 

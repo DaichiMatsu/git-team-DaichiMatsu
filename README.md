@@ -37,4 +37,15 @@
 
 この図はmainブランチを元として"dev-anna"、"dev-ben"、"dev-you"の三つのブランチが分岐している状態を表している。
 
+# Part B
 
+(base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % git log --oneline --graph --all
+
+    *   ec1c6fa (HEAD -> main) merge 'dev-anna'
+    |\  
+    | * 065c494 (dev-anna) feat: login
+    * | af52dde (dev-ben) feat: dark theme
+    |/  
+    | * 0504968 (dev-you) feat: signup
+    |/  
+    * 2dc6040 (origin/main, origin/HEAD) Initial commit

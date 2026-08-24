@@ -96,3 +96,21 @@
     * / af52dde (dev-ben) feat: dark theme
     |/  
     * 2dc6040 (origin/main, origin/HEAD) Initial commit
+
+
+# Part D
+
+### ログ
+
+(base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % git log --oneline -n 3
+
+    afc6574 (HEAD -> main) helper
+    131d61b resolve conflict
+    ec1c6fa merge 'dev-anna'
+
+### mainにbroken.txtがない証拠
+
+(base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % ls
+
+    README.md	app.txt		helper.txt	style.txt
+

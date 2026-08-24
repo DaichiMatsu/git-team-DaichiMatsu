@@ -49,3 +49,30 @@
     | * 0504968 (dev-you) feat: signup
     |/  
     * 2dc6040 (origin/main, origin/HEAD) Initial commit
+
+
+# Part C
+
+### コンフリクトブロック
+(base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % cat app.txt
+
+    <<<<<<< HEAD
+    login feature
+    =======
+    signup feature
+    >>>>>>> dev-you
+
+### 最終グラフ
+
+(base) daichi.matsumoto@matsumotodaichinoMacBook-Air git-team-DaichiMatsu % git log --oneline --graph --all
+
+    *   131d61b (HEAD -> main) resolve conflict
+    |\  
+    | * 0504968 (dev-you) feat: signup
+    * |   ec1c6fa merge 'dev-anna'
+    |\ \  
+    | * | 065c494 (dev-anna) feat: login
+    | |/  
+    * / af52dde (dev-ben) feat: dark theme
+    |/  
+    * 2dc6040 (origin/main, origin/HEAD) Initial commit
